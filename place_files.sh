@@ -34,16 +34,3 @@ else
 fi
 
 
-# # place files
-# if  test -d "$BACKEND_DIR"; then
-#     echo "$BACKEND_DIR exists."
-# else
-#     echo "$BACKEND_DIR does not exist."
-# fi
-#
-# if test -d "$DESKTOPR_DIR"; then
-#     echo "$DESKTOPR_DIR exists."
-# else
-#     echo "$DESKTOPR_DIR does not exist."
-# fi
-
