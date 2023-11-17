@@ -1,24 +1,6 @@
 [Manager]
-module_name = executor
-node_name = <any name>
-interface_name = diag1
+module_name =
+node_name =
+interface_name =
 
-[Info]
-execute = cat usr/share/alterator/adttools/template.desktop
-stdout_bytes = enabled
-stdout_byte_limit = 200000
-action_id = info
-
-[Run]
-execute = <excecute programm name> {param}
-stdout_signal_name = diag1_stdout_signal
-stderr_signal_name = diag1_stderr_signal
-thread_limit = 3
-action_id = run
-
-[List]
-execute = <excecute programm name> <test list key>
-stdout_strings = enabled
-stdout_strings_limit = 200000
-action_id = list
 
